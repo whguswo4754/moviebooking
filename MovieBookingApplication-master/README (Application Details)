@@ -1,0 +1,46 @@
+# MovieBookingApplication
+A simple Movie Booking application with basic functionalities for user and admin. User can see the running movies and book its tickets while Admin have the privilege to add any other movie in available theatre.
+
+All code is in src/java
+
+Name of the Aplication:         FreshCinemasBookingApplication
+Status of the Aplication:       Working [Tested on local system server Apache Tomcat 9]
+Home Page on local system:      http://localhost:8080/FreshCinemasBookingApp/FreshCinemasApplicationHome.jsp
+Programming IDE Used:           Eclipse EE  [Build done in Apache Maven]
+Technologies or Languages used: Java, MySql, HTML(Hypertext Markup Language), Jsp(JavaServer Pages), CSS(Cascading Style Sheets), Servlet Programming
+Connectors used: mysql-connector-java 8.0.12.jar
+                 javax.servlet-api 3.0.1.jar
+                 
+                 
+Why the languages or technologies given above were used:
+i)MySql: Maintaining and fetching query data from the database.
+ii)Java: Used for designing the backend framework.Passing query to mysql database. Making algorithms based on the data from database.Returning all results to frontend part or to servlet.
+iii)Jsp: Used as View for application.Displaying backend data to user.For creating forms and passing user query to servlet.
+iv)Servlet: Used as the Controller for Application. Taking the form data from jsp and giving response or redirecting based on the form data.
+v)JavaScript: For form validations.
+vi)CSS: For basic styling and coloring of texts.
+
+                 
+                 Context of the Apllication:
+For User--> It takes data of running movies and theatres from the database and displays it to user. User can see the ruuning movies and in which theatre they are running. Based on the response user can book tickets.
+For Admin--> Admin can see the running movies and available theatres. Admin can add any movie to theatre or remove any based on the availability. Data will be directly updated in the database.
+
+              
+              Workflow of Application :::
+
+Sql Database <----Java Code <------ Servlet <----- Jsp <------User(Query)
+Sql Database(Query Result) ---->Java Code ------> Servlet -----> Jsp ------>User
+
+Sql Database <----Java Code <------ Servlet <----- Jsp <------Admin(Query)
+Sql Database(Query Result) ---->Java Code ------> Servlet -----> Jsp ------>Admin
+Sql Database <-------Java Code <------ Servlet <----- Jsp <------Admin(Update task)
+(Database Updated)
+
+ 
+ 
+ Please Provide Any Improvements or Suggestions here:-
+ 
+ 
+ 
+ 
+ ....................-----------------Thank You-----------------....................

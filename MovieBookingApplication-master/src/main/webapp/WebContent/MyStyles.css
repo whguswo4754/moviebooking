@@ -1,0 +1,28 @@
+@charset "UTF-8";
+h1 {
+	color:green;
+	text-align:center;
+	text-decoration:underline;
+	text-shadow: 2px 1px black;
+}
+
+body {
+	color:black;
+	background-image:url("mov.jpg");
+}
+
+h2 {
+	color:saddlebrown;
+}
+
+h3 {
+	color:purple;
+}
+
+h4 {
+	color:blue;
+}
+
+h5 {
+	color:green;
+}
